@@ -1,0 +1,116 @@
+*{
+	
+	position: relative;
+	box-sizing: border-box;
+}
+/*background color*/
+.bg-color-primary{
+	background-color: #474143;
+}
+.bg-color-secondary{
+	background-color: #FFFFFF;
+}
+.bg-color-black{background-color: #484848;}
+.bg-color-grey{background-color: #cbcbcb;}
+.bg-color-white{background-color: #fefefe;}
+
+/* text color */
+.color-primary{color: #474143;}
+.color-secondary{color: #FFC636;}
+.color-black{color: #484848;}
+.color-grey{color: #cbcbcb;}
+.color-white{color: #fefefe;}
+.color-BG{#00ADA9}
+.color-yellow{#FFC636}
+.color-red{#FF6444}
+font-family:{'Inter', sans-serif,arial;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	color: #484848;
+}
+h1{
+	font-size: 80px;
+	font-weight: 800;
+	font-family: 'Roboto''Inter', sans-serif,arial;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+h2{
+	font-size: 48px;
+	font-weight: 600;
+	font-family: 'Roboto''Inter', sans-serif,arial;
+	margin-top: 24px;
+	margin-bottom: 24px; 
+}
+h3{
+	font-size: 40px;
+	font-weight: 600;
+	font-family: 'Roboto''Inter', sans-serif,arial;
+	line-height: 48px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+h4{
+	font-size: 24px;
+	font-weight: 600;
+	font-family: 'Roboto''Inter', sans-serif,arial;
+	line-height: 32px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+h5{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Roboto''Inter', sans-serif,arial;
+	line-height: 24px;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+
+h6{
+	font-size: 10px;
+	font-weight: 400;
+	font-family: 'Roboto''Inter', sans-serif,arial;
+	line-height: 24px;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+
+p{
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Roboto''Inter', sans-serif,arial;
+	line-height: 32px;
+	letter-spacing: 0;
+	margin-bottom: 16px;
+}
+.subtiltle{
+	font-size: 48px;
+	font-weight: 900;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+@media (max-width: 768px){
+.subtiltle{
+	font-size: 40px;
+}	
+}
+/*link*/
+a{
+	color: #484848;
+	text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus{
+	color: #484848;
+	text-decoration: none;
+}
+/*list*/
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0; 
+}
