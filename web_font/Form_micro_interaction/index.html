@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<section class="main">
+			<div class="card u-mt-48 u-mb-48">
+				<div class="row">
+					<div class="col-2-3">
+						<div class="form-bg u-padding-32">
+								<h2 class="heading u-mt-48 u-mb-24">Contact</h2>
+						<p class="message">We are open for any suggestion or just to have a chat</p>
+							<!--  form-bg--> 
+						</div>
+					
+						<!-- col-2-3 -->
+					</div>
+					<div class="col-1-3 u-padding-32">
+					<form action="" class="form">
+						<div class="input-container">
+							
+							<input class="js-input" ype="text">
+
+							<label class="label-text " for="">Name</label>
+							<!-- input-container -->
+						</div>
+						
+						<div  class="input-container">
+							
+							<input class="js-input" type="email">
+							<label class="label-text" for="">E-mail</label>
+
+							<!-- input-container -->
+						</div>
+
+						<div   class="input-container u-mb-24">
+							
+							<textarea class="js-input u-resize-none" name="" id="" cols="30" rows="10"></textarea>
+
+							<label class="label-text" for="">Message</label>
+							<!-- input-container -->
+						</div>
+						<div class="u-text-center">
+							<input class="btn btn--primary" type="submit" value="SEND">
+							<!-- u-text-center -->
+						</div>
+						
+						<!-- form -->
+					</form>
+						<!-- col-1-3 -->
+					</div>
+					<!-- row -->
+				</div>
+				<!-- card end-->
+			</div>
+			<!-- main end -->
+		</section>
+		<!-- wrapper end -->
+	</div>
+	<!-- js -->
+	<script src="js/jquery-3.2.1.min.js"> </script>
+	<script>
+// 當 input 是 focus 的狀態下
+		$(".js-input").focus(function(){
+			// 找到 .label-text 元素並加上 .is-active
+			$(this).parent().find(".label-text").addClass("is-active");
+		})
+$(".js-input").blur(function(){
+			// 如果裡面沒有內容
+			if($(this).val().length == 0){
+				// 找到 .label-text 元素並移除 .is-active
+				$(this).parent().find(".label-text").removeClass("is-active");
+			}
+		})
+	</script>
+</body>
+</html>
