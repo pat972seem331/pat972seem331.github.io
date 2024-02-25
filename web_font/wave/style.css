@@ -1,0 +1,61 @@
+*{
+	position: relative;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.wrapper{
+	height: 100%;
+	background-color: #333;
+}
+.btn{
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fff;
+	font-family: 微軟正黑體;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+	padding: 25px 60px;
+	display: inline-block;
+	overflow: hidden;
+	transition: all 1s;
+}
+.btn:before{
+	content: "";
+	position: absolute;
+	width: 320px;
+	height: 320px;
+	border-radius: 130px;
+	background-color: #fff;
+
+	top: 80px;
+	left: 50%;
+	transform: translateX(-50%);
+	animation: wave 5s infinite linear;
+	transition: all 1s;
+	
+}
+
+@keyframes	wave{
+	0%{
+		transform: translateX(-50%) rotate(0deg);
+	}
+	100%{
+		transform: translateX(-50%) rotate(360deg);
+	}
+}
+.btn:hover {
+	color: #333;
+}
+.btn:hover:before{
+	top: 15px;
+}
