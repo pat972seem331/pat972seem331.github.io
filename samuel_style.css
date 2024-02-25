@@ -18,11 +18,14 @@ html,body{
 	z-index: 100;
 	background-color: #cbcbcb;
 }
-.header--scrolling .navbar_header{
-	height: 60px;
+.js-header{
+	position: fixed;
+	top: 0;
+	left: 0;
 	width: 100%;
-	background-color: #cbcbcb;
+	z-index: 100;
 }
+
 .navbar{
 	position: absolute;
 	height: 80px;
