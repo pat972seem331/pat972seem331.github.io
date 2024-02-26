@@ -474,6 +474,7 @@ font-size: 32px;
 	color: #FFC636;
 	top: 50%;
 	margin: 0;
+	z-index: 100;
 }
 @media(max-width:430px){
 	.high_school_text{
