@@ -475,6 +475,11 @@ font-size: 32px;
 	top: 50%;
 	margin: 0;
 }
+@media(max-width:430px){
+	.high_school_text{
+		white-space: nowrap;
+	}
+}
 
 .text_2020{
 	padding-left: 55px;
