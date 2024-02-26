@@ -503,6 +503,7 @@ font-size: 32px;
 	padding-top: 8px;
 	color: #FFC636;
 	z-index: 1;
+	white-space: nowrap;
 }
 .high_school_textcontent{
 	padding-left: 25px;
